@@ -10,7 +10,6 @@
 
 _✨ NoneBot 调用系统命令行 ✨_
 
-
 <a href="./LICENSE">
     <img src="https://img.shields.io/github/license/tkgs0/nonebot-plugin-system-command.svg" alt="license">
 </a>
@@ -23,9 +22,9 @@ _✨ NoneBot 调用系统命令行 ✨_
 
 </div>
 
-通过Bot操作Bot所在系统的命令行  
-一个非常危险的插件, 甚至可以通过此插件 `rm` 整个服务器  
-限超级用户使用
+- 通过Bot操作Bot所在系统的命令行
+- 甚至可以通过此插件 `rm` 整个服务器
+- 限超级用户使用
 
 ## 💿 安装
 
