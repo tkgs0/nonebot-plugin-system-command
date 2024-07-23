@@ -91,7 +91,7 @@ _✨ NoneBot 调用系统命令行 ✨_
     <th> 权限 </th>
     <th> 需要@ </th>
     <th> 范围 </th>
-    <th colspan="2"> 说明 </th>
+    <th> 说明 </th>
   </tr>
   <tr align="center">
     <td> /sh </td>
@@ -99,7 +99,6 @@ _✨ NoneBot 调用系统命令行 ✨_
     <td> 否 </td>
     <td> 私聊 | 群聊 </td>
     <td> Windows环境无法正常使用 </td>
-    <td rowspan="2"> </td>
   </tr>
   <tr align="center">
     <td> /cmd </td>
