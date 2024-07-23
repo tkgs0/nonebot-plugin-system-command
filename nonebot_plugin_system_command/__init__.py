@@ -15,7 +15,8 @@ __plugin_meta__ = PluginMetadata(
     name="命令行",
     description="操作Bot所在系统的命令行",
     usage="发送 /sh 或 /cmd 查看帮助",
-    type="application"
+    type="application",
+    homepage="https://github.com/tkgs0/nonebot-plugin-system-command"
 )
 
 
