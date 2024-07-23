@@ -8,7 +8,7 @@
 
 # nonebot-plugin-system-command
 
-_✨ NoneBot 调用系统命令行 ✨_
+_✨ Call the system command in NoneBot2 ✨_
 
 <a href="./LICENSE">
     <img src="https://img.shields.io/github/license/tkgs0/nonebot-plugin-system-command.svg" alt="license">
@@ -22,7 +22,7 @@ _✨ NoneBot 调用系统命令行 ✨_
 
 </div>
 
-- 通过Bot操作Bot所在系统的命令行
+- 以发送消息的方式操作Bot所在环境的系统命令行
 - 甚至可以通过此插件 `rm` 整个服务器
 - 限超级用户使用
 
@@ -83,6 +83,13 @@ _✨ NoneBot 调用系统命令行 ✨_
 ## 🎉 使用
 
 ### 指令表
+
+#### 注意
+
+以下命令不可省略前缀 `/`
+
+- 如果Bot项目的 `.env*` 里只设置了命令前缀 `/`,
+  那么以下命令应该写作 `//sh` 和 `//cmd`
 
 <table> 
   <tr align="center">
