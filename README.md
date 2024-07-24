@@ -84,13 +84,6 @@ _✨ Call the system command in NoneBot2 ✨_
 
 ### 指令表
 
-#### 注意
-
-以下命令不可省略前缀 `/`
-
-- 如果Bot项目的 `.env*` 里只设置了命令前缀 `/`,
-  那么以下命令应该写作 `//sh` 和 `//cmd`
-
 <table> 
   <tr align="center">
     <th> 指令 </th>
@@ -114,6 +107,13 @@ _✨ Call the system command in NoneBot2 ✨_
     <td> 通用 </td>
   </tr>
 </table>
+
+#### 注意
+
+以上命令不可省略前缀 `/`
+
+- 如果Bot项目的 `.env*` 里只设置了命令前缀 `/`,
+  那么 `/sh` `/cmd` 应该写作 `//sh` `//cmd`
 
 ### 示例
 
