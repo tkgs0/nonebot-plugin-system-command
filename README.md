@@ -82,6 +82,17 @@ _✨ Call the system command in NoneBot2 ✨_
 
 ## 🎉 使用
 
+- 可在 Bot项目的 `.env*` 中自定义调用命令行的指令,
+  默认值为 `/sh` 和 `/cmd`
+
+- 如果 `.env*` 中 `COMMAND_START` 变量值为 `["/"]`
+  那么指令应该为 `//sh` `//cmd`
+
+```env
+SYS_CMD_SH="/sh"
+SYS_CMD_CMD="/cmd"
+```
+
 ### 指令表
 
 <table> 
@@ -108,12 +119,9 @@ _✨ Call the system command in NoneBot2 ✨_
   </tr>
 </table>
 
-#### 注意
+### ⚠️ ATTENTION!!
 
-以上命令不可省略前缀 `/`
-
-- 如果Bot项目的 `.env*` 里只设置了命令前缀 `/`,
-  那么 `/sh` `/cmd` 应该写作 `//sh` `//cmd`
+自定义指令前请三思而后行, 确保本插件不会因为响应了不相干的消息, 导致设备遭受灾难性的损坏!
 
 ### 示例
 
@@ -130,6 +138,6 @@ _✨ Call the system command in NoneBot2 ✨_
 - [x] 使用异步管道
 - [ ] 命令行交互
 
-## ⚠️ 注意事项
+## ⚠️ ATTENTION!!!
 
 Don't drink and root!
