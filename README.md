@@ -119,6 +119,10 @@ SYS_CMD_CMD="/cmd"
   </tr>
 </table>
 
+### 语法
+
+命令行语法与Bot运行环境相关, linux-shell运行即使用linux-shell语法, cmd运行即使用cmd语法, powershell运行即使用powershell语法
+
 ### ⚠️ ATTENTION!!
 
 自定义指令前请三思而后行, 确保本插件不会因为响应了不相干的消息, 导致设备遭受灾难性的损坏!
