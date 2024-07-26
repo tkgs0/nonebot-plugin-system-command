@@ -101,6 +101,7 @@ SYS_CMD_CMD="/cmd"
     <th> 权限 </th>
     <th> 需要@ </th>
     <th> 范围 </th>
+    <th> 特性 </th>
     <th> 说明 </th>
   </tr>
   <tr align="center">
@@ -108,6 +109,7 @@ SYS_CMD_CMD="/cmd"
     <td> 主人 </td>
     <td> 否 </td>
     <td> 私聊 | 群聊 </td>
+    <td> 异步管道 </td>
     <td> Windows环境无法正常使用 </td>
   </tr>
   <tr align="center">
@@ -115,13 +117,14 @@ SYS_CMD_CMD="/cmd"
     <td> 主人 </td>
     <td> 否 </td>
     <td> 私聊 | 群聊 </td>
+    <td> 同步管道 </td>
     <td> 通用 </td>
   </tr>
 </table>
 
 ### 语法
 
-命令行语法与Bot运行环境相关, linux-shell运行即使用linux-shell语法, cmd运行即使用cmd语法, powershell运行即使用powershell语法
+命令行语法与Bot运行环境相关, 与插件指令无关, `linux-shell` 运行即使用 `linux-shell` 语法, `cmd` 运行即使用 `cmd` 语法, `powershell` 运行即使用 `powershell` 语法
 
 ### ⚠️ ATTENTION!!
 
