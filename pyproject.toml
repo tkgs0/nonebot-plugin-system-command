@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nonebot-plugin-system-command"
-version = "0.1.1"
+version = "0.1.2"
 description = "Call the system command in NoneBot2"
 authors = ["月ヶ瀬"]
 license = "MIT"
@@ -10,7 +10,7 @@ packages = [
 ]
 homepage = "https://github.com/tkgs0/nonebot-plugin-system-command"
 repository = "https://github.com/tkgs0/nonebot-plugin-system-command"
-keywords = ["nonebot", "system", "command"]
+keywords = ["nonebot", "nonebot2", "nonebot_plugin", "system", "shell", "cmd", "powershell"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
