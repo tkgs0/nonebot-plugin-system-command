@@ -8,7 +8,7 @@
 
 # nonebot-plugin-system-command
 
-_✨ Call the system command in NoneBot2 ✨_
+_✨ Call the system command-line in NoneBot2 ✨_
 
 <a href="./LICENSE">
     <img src="https://img.shields.io/github/license/tkgs0/nonebot-plugin-system-command.svg" alt="license">
@@ -18,6 +18,9 @@ _✨ Call the system command in NoneBot2 ✨_
 </a>
 <a href="https://www.python.org">
     <img src="https://img.shields.io/badge/python-3.9+-blue.svg" alt="python">
+</a>
+<a href="https://nonebot.dev">
+    <img src="https://img.shields.io/badge/nonebot-2.3.1+-red.svg" alt="nonebot">
 </a>
 
 </div>
