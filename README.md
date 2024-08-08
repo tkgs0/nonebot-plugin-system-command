@@ -161,4 +161,4 @@ SYS_CMD_CMD="/cmd"
 
 ## ⚠️ ATTENTION
 
-Don't drink and root! 🍻
+**Don't drink and root! 🍻**
