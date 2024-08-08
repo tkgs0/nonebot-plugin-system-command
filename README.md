@@ -127,11 +127,22 @@ SYS_CMD_CMD="/cmd"
 
 ### 语法
 
-命令行语法与Bot运行环境相关, 与插件指令无关, `linux-shell` 运行即使用 `linux-shell` 语法, `cmd` 运行即使用 `cmd` 语法, `powershell` 运行即使用 `powershell` 语法
+命令行语法与Bot运行环境相关, 与插件指令无关
 
-### ⚠️ ATTENTION!!
+- `bash` 运行即使用 `bash` 语法
+- `zsh` 运行即使用 `zsh` 语法
+- `powershell` 运行即使用 `powershell` 语法
+- `cmd` 运行即使用 `cmd` 语法
 
-自定义指令前请三思而后行, 确保本插件不会因为响应了不相干的消息, 导致设备遭受灾难性的损坏!
+其他shell同理
+
+### ⚠️ ATTENTION
+
+- 当您使用本插件时, 我们默认您了解命令行的基本使用, 以及在 `根环境` 运行命令的危险性;
+- 在使用本插件前请先确认没有其他插件与本插件的指令发生冲突, 如有, 请在Bot项目下的 `.env*` 文件里自定义本插件的响应指令;
+- 如有因为此插件响应了不相干的消息, 导致设备遭到损坏, 将由使用者自己承担相关责任.
+
+注: 此处的 `根环境` 是指以 `root` 或者 `管理员(Administrator)` 或者其他高权限运行的终端环境
 
 ### 示例
 
@@ -148,6 +159,6 @@ SYS_CMD_CMD="/cmd"
 - [x] 使用异步管道
 - [ ] 命令行交互
 
-## ⚠️ ATTENTION!!!
+## ⚠️ ATTENTION
 
-Don't drink and root!
+Don't drink and root! 🍻
