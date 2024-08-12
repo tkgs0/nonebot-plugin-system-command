@@ -154,6 +154,8 @@ SYS_CMD_CMD="/cmd"
 /cmd echo "hello world"
 ```
 
+![01.png](https://github.com/tkgs0/nonebot-plugin-system-command/raw/resource/01.png)
+
 ## TODO
 
 - [x] 使用异步管道
