@@ -84,7 +84,7 @@ body:
   - type: input
     attributes:
       label: 操作系统
-      placeholder: 你所使用的操作系统以及系统版本
+      placeholder: 你所使用的操作系统以及其版本
     validations:
       required: true
 
