@@ -26,7 +26,10 @@ __plugin_meta__ = PluginMetadata(
     type="application",
     homepage="https://github.com/tkgs0/nonebot-plugin-system-command",
     config=Config,
-    supported_adapters=None
+    supported_adapters=None,
+    extra={
+        "author": "月ヶ瀬"
+    }
 )
 
 
