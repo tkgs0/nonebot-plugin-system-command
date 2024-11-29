@@ -68,7 +68,7 @@ sys_shell = on_command(
 async def _(args: Message = CommandArg()):
     for i in _win:
         if system() and (system().lower() in i or i in system().lower()):
-            await sys_shell.finish('暂不支持Windows,\n请尝试使用 `/cmd`')
+            await sys_shell.finish(f'暂不支持Windows,\n请尝试使用 `{cmd_start}{cmd_cmd}`')
     opt: str = args.extract_plain_text()
 
     if not opt:
